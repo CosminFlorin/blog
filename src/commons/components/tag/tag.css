@@ -1,0 +1,18 @@
+.tag {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    color: #999999;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    padding: 0 .5rem;
+    margin-right: 8px ;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+
+.tag:hover {
+    border-color: red;
+    color:red;
+  
+}

@@ -1,0 +1,28 @@
+
+
+
+.article { 
+    width: 50rem;
+    background-color: white;
+    margin:48px 0px; 
+    padding: 24px 48px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+    border-radius: 4px;
+    
+}
+
+.article-title {
+    font-size: 2em;
+   font-weight: 400;
+   cursor: pointer;
+ 
+}
+.article-title:hover {
+    color: red;
+    transition: 0.4s ;
+}
+.article p {
+    margin: 16px 0;
+}
+/* 
+//border radius half of widht for circle image  */
