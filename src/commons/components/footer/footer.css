@@ -1,0 +1,48 @@
+.blog-footer {
+    border-top: 1px solid #e6e6e6;
+    
+    padding-bottom: .125rem;
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    color: #999999;
+    font-size: .75rem;
+    height: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    margin-top: 16px;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+    
+}
+
+.published-date {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 0 .5rem;
+}
+
+
+.comments2{
+    
+        display: flex;
+        align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments{
+ align-items: center;
+ display: flex;
+ margin-left: 16px;
+
+}
+
+.comments span {
+    margin-left: 4px;
+}
+

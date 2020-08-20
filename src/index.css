@@ -17,7 +17,7 @@ body{
   background-color: #e5ded8;
 }
 
-.homepage{
+.app{
   display:flex;
   align-items: center;
   flex-direction: column;

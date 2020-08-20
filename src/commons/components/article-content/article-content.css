@@ -1,6 +1,5 @@
 
 
-
 .article { 
     width: 50rem;
     background-color: white;
@@ -9,6 +8,11 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
     border-radius: 4px;
     
+}
+.article a{
+    text-decoration: none;
+    
+
 }
 
 .article-title {
@@ -24,5 +28,3 @@
 .article p {
     margin: 16px 0;
 }
-/* 
-//border radius half of widht for circle image  */

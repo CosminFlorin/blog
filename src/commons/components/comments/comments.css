@@ -1,0 +1,27 @@
+.listed-comment {
+    list-style-type: none;
+   
+}
+
+.text-area{
+    width: 98%;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+    resize: none;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+li.listen-coment{
+
+    font-weight: 500px;
+}
+
+.comment-section{
+	border-style: solid;
+    border-width: 3px;
+    
+    border-color: #cccccc;
+}
