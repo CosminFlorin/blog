@@ -16,8 +16,8 @@ function NavigationRouter (){
     
     <Router>
           
-      <Route path="/article">
-        <Article/>
+      <Route path="/article/:id" >
+        <Article />
       </Route>
       <Route  exact path="/">
         <Home/>

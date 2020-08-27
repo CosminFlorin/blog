@@ -1,15 +1,21 @@
-import React from "react"
-import ArticleContent from "../../commons/components/article-content/article-content"
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import ArticleContent from "../../commons/components/article-content/article-content";
 
-function Article () {
+function Article() {
+  const [article, setArticle] = useState();
+  let { id } = useParams();
 
-return(
-<div >
+  console.log(id);
+  useEffect(() => {
+    fetch(`http://localhost:8080/articles/${id}`)
+      .then((res) => res.json())
+      .then((res) => setArticle(res));
+  }, [id]);
 
-    
-    <ArticleContent />
-    </div>
-)}
+  return article ? (
+    <ArticleContent {...article} shouldDisplayComments={true} />
+  ) : null;
+}
 
-
-export default Article; 
+export default Article;
